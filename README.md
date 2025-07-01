@@ -26,3 +26,11 @@ This repository should trigger comprehensive AI analysis including:
 4. Check event logging in Cabinet
 
 **CodeRipple Webhook**: Configured to analyze this repository automatically on push events.
+
+
+## Pipeline Testing
+
+This change triggers the CodeRipple end-to-end pipeline test.
+
+**Test Timestamp**: Tue Jul  1 15:16:28 NZST 2025
+**Expected Flow**: GitHub webhook → Receptionist → Analyst → Deliverer → Showroom
