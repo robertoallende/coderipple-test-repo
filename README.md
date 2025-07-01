@@ -89,3 +89,5 @@ This change triggers the CodeRipple end-to-end pipeline test.
 🎯 **FINAL TEST**: Multi-region Bedrock permissions - testing complete pipeline Tue Jul  1 16:21:07 NZST 2025
 
 🌎 **REGION FIX**: Configured Strands to use us-east-1 instead of us-west-2 Tue Jul  1 16:35:50 NZST 2025
+
+🎯 **FINAL FIX**: Comprehensive Bedrock permissions for all Claude models Tue Jul  1 16:44:10 NZST 2025
