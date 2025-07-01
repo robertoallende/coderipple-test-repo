@@ -34,3 +34,8 @@ This change triggers the CodeRipple end-to-end pipeline test.
 
 **Test Timestamp**: Tue Jul  1 15:16:28 NZST 2025
 **Expected Flow**: GitHub webhook → Receptionist → Analyst → Deliverer → Showroom
+
+
+**Integration Fix Applied**: Tue Jul  1 15:22:30 NZST 2025
+- API Gateway now properly integrated with Receptionist Lambda
+- Webhook should trigger complete pipeline
