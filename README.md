@@ -67,3 +67,10 @@ This change triggers the CodeRipple end-to-end pipeline test.
 - S3 upload now happens within temp directory context
 - Should complete full repository processing pipeline
 - Expected: repo_ready event → Analyst processing
+🔧 PIPELINE FIX TEST: GitHub API integration deployed
+
+- Fixed: FileNotFoundError git binary issue
+- Updated: Receptionist Lambda with GitHub API clone_repository
+- Expected: repo_ready → analysis_complete → results_delivered
+- Monitor: Cabinet for events, Showroom for results
+- Timestamp: Tue Jul  1 16:03:17 NZST 2025
