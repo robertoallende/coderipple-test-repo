@@ -74,3 +74,10 @@ This change triggers the CodeRipple end-to-end pipeline test.
 - Expected: repo_ready → analysis_complete → results_delivered
 - Monitor: Cabinet for events, Showroom for results
 - Timestamp: Tue Jul  1 16:03:17 NZST 2025
+✅ IAM PERMISSIONS FIX: S3 upload access granted
+
+- Fixed: IAM policy resource pattern for S3 uploads
+- Updated: coderipple-receptionist-role DrawerAccess policy
+- Expected: GitHub API → S3 upload → repo_ready event → analysis pipeline
+- Monitor: Cabinet for events, Showroom for results
+- Timestamp: Tue Jul  1 16:05:38 NZST 2025
