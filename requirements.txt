@@ -1,0 +1,5 @@
+# CodeRipple Test Repository Dependencies
+# Minimal dependencies for testing purposes
+
+# No external dependencies required for this test application
+# This file exists to demonstrate dependency analysis capabilities
