@@ -81,3 +81,5 @@ This change triggers the CodeRipple end-to-end pipeline test.
 - Expected: GitHub API → S3 upload → repo_ready event → analysis pipeline
 - Monitor: Cabinet for events, Showroom for results
 - Timestamp: Tue Jul  1 16:05:38 NZST 2025
+
+🔧 **PIPELINE TEST**: S3 permissions fixed - testing end-to-end flow Tue Jul  1 16:16:46 NZST 2025
